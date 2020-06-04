@@ -62,5 +62,4 @@ public class StackExercise {
     public boolean isEmpty() {
         return currentIndex == -1;
     }
-
 }
