@@ -1,6 +1,4 @@
 /target/
-
-
 .metadata
 bin/
 tmp/
@@ -51,9 +49,6 @@ local.properties
 
 # Code Recommenders
 .recommenders/
-
-
-
 
 # Created by https://www.gitignore.io/api/intellij
 
@@ -117,3 +112,4 @@ fabric.properties
 .idea/modules.xml
 .idea/vcs.xml
 zaawansowana-java-testowanie.iml
+/.idea/
