@@ -4,7 +4,6 @@ import java.util.stream.IntStream;
 
 public class SimpleCalculator {
     public double add(double number1, double number2) {
-
         return number1 + number2;
     }
 
