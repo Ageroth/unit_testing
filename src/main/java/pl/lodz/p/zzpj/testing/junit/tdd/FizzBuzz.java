@@ -3,7 +3,9 @@ package pl.lodz.p.zzpj.testing.junit.tdd;
 public class FizzBuzz {
 
     public String getFizzBuzzNumber(int number) {
-        //TODO: implement
-        return null;
+        if (number % 15 == 0) return "FizzBuzz";
+        else if (number % 5 == 0) return "Buzz";
+        else if (number % 3 == 0) return "Fizz";
+        else return String.valueOf(number);
     }
 }
